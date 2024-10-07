@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card" *ngIf="profiles.length > 0">
+    <img
+      class="card-img-top"
+      [src]="profiles[currentIndex]?.image"
+      alt="Profile Image"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ profiles[currentIndex]?.name }}</h5>
+      <button mat-button (click)="markInterested()">Yes</button>
+      <button mat-button (click)="markNotInterested()">No</button>
+      <button mat-button (click)="shortlist()">Shortlist</button>
+    </div>
+  </div>
+</div>

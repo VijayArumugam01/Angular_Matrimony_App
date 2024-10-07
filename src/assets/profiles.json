@@ -1,0 +1,5 @@
+[
+  { "name": "John Doe", "image": "assets/images/john.jpg" },
+  { "name": "Jane Smith", "image": "assets/images/jane.jpg" },
+  { "name": "Alice Johnson", "image": "assets/images/alice.jpg" }
+]
